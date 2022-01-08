@@ -199,8 +199,20 @@
     .ssl-wrapper .ssl-header .ssl-header-inner .ssl-head-desktop .ssl-useropt-blk div h2{font-size: 14px;line-height: 14px;}
     .ssl-wrapper .ssl-header .ssl-header-inner .ssl-head-desktop .ssl-menu-blk ul li a{font-size: 16px;line-height: 16px;}
 
-    /* Experiment */
+    /* content */
+    .ssl-wrapper .ssl-content-blk{margin:95px auto 50px}
+    .ssl-wrapper .ssl-content-blk.in{margin: 75px auto 0;}
+
+    /* Experiment */    
+    
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk{padding-top: 30px;}
     .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-ttl h3{font-size: 28px;line-height: 28px;}
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-inventory-blk{margin-top: 20px;padding: 20px 15px;}
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-inventory-blk .ssl-exp-img aside{height: 80px;}
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table{margin-top: 120px;}
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-rytblk.in{left:38%;width:62%;}
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in{width: 35%;}
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in .btn-group{width: 95%;}
 }
 
 @media (max-width:1599px){
@@ -212,16 +224,26 @@
     .ssl-wrapper .ssl-footer .ssl-footer-content{padding: 50px 0 30px;}
     .ssl-wrapper .ssl-footer .ssl-footer-content .ssl-footer-blk aside h3{font-size: 22px;}
 
+    /* Content */
+    .ssl-wrapper .ssl-content-blk{margin:65px auto 50px;}
+
     /* Experiment */
-    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table{margin-top: 150px;width: 94%;text-align: center;} 
-    .ssl-wrapper .ssl-content-blk .ssl-cont-leftblk .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk{padding: 40px 20px;}
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in.rmpad{padding: 30px 30px;}
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table{margin-top: 140px;width: 94%;text-align: center;} 
+    .ssl-wrapper .ssl-content-blk .ssl-cont-leftblk{margin:30px auto 0;}
+    .ssl-wrapper .ssl-content-blk .ssl-cont-leftblk .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk{padding: 30px 20px;}
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk .ssl-exp-img{margin-bottom: 20px;}
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk aside{height: 80px;}
     .ssl-wrapper .ssl-content-blk .ssl-cont-leftblk .ssl-exp-slider-blk .slick-initialized .slick-arrow.slick-prev{left:30%}
     .ssl-wrapper .ssl-content-blk .ssl-cont-leftblk .ssl-exp-slider-blk .slick-initialized .slick-arrow.slick-next{left:70%}
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in{padding-top: 20px;}
     .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in .btn-group{width: 100%;}
-    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk{min-height: 350px;}
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk{min-height: 280px;}
     .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk h6{margin-bottom: 20px;}   
-    
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in .btn-group a:first-child{margin-right: 30px;}
 }
+
+
 
 @media (max-width:1365px){
     /* Header */
@@ -243,15 +265,25 @@
     .ssl-wrapper .ssl-footer .ssl-footer-content .ssl-footer-blk aside ul li a{font-size: 14px;}    
 
     /* Experiment */
-    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table{margin-top: 130px}
-    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-inventory-blk .ssl-exp-img aside{height: 80px;}
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table{margin-top: 100px}
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-inventory-blk{width:80%;margin-left:8%;padding: 15px 10px;}
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-inventory-blk .ssl-exp-img aside{height: 60px;width:40px}
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-inventory-blk .ssl-exp-img aside.jar-rod{width:5px;}
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table .ssl-table-block .ssl-exp-items{min-height: 80px;}
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table .ssl-table-block .ssl-table{width:400px;height:20px}
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table .ssl-table-block .ssl-table::before,
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table .ssl-table-block .ssl-table::after{top:17px;padding:5px}
+    
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-rytblk.in{padding-left: 0;}
     .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in{padding:30px 30px 230px;}
-    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in.rmpad{padding: 30px;}
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in.rmpad{padding: 30px 20px;}
     .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in .btn-group a{font-size: 16px;padding: 15px 20px 15px 60px;}
     .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in .btn-group a:first-child{margin-right: 20px;}
     .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in h4{font-size: 22px;line-height: 22px;}
     .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in ul li{font-size: 16px;line-height: 24px;}
-    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk{min-height: 330px;}
+    
+    .ssl-wrapper .ssl-content-blk .ssl-cont-leftblk .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk{padding: 20px 15px;}
+    /* .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk{min-height: 330px;} */
     .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk h6{font-size: 16px;line-height: 16px;}
     .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk p{font-size: 15px;line-height: 15px;}
     .ssl-wrapper .ssl-content-blk .ssl-cont-leftblk .ssl-exp-slider-blk .slick-initialized .slick-arrow{font-size: 15px;line-height: 15px;padding: 10px 35px;height: 40px;}
@@ -261,6 +293,7 @@
     /* Header */
     .ssl-wrapper .ssl-header .ssl-header-inner .ssl-head-desktop{display: none;}
     .ssl-wrapper .ssl-header .ssl-header-inner .ssl-head-responsive{display: inline-block;}
+    .ssl-wrapper .ssl-header .ssl-header-inner .ssl-logo-blk h1{font-size: 23px;line-height: 23px;}
 
     /* Footer */
     .ssl-wrapper .ssl-footer .ssl-footer-content{width: 98%;}
@@ -269,9 +302,13 @@
     .ssl-wrapper .ssl-footer .ssl-footer-content .ssl-footer-blk aside .form-block button{font-size: 17px;}
     .ssl-wrapper .ssl-footer .ssl-footer-content .ssl-footer-blk aside .info-block a{font-size: 14px;}
 
+
+    /* content */
+    .ssl-wrapper .ssl-content-blk.in{margin:50px auto 0;}
+
     /* Experiment */
     .ssl-wrapper .ssl-content-blk{max-width: 95%;margin:75px auto 0;}
-    
+    .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk{padding-top: 0;}
     .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-ttl{padding-top: 30px;}
     .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-ttl h3{font-size: 25px;padding-bottom: 5px;}
     .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-ttl p{font-size: 16px;}
@@ -284,10 +321,11 @@
     
     .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in{padding: 30px 20px 230px;}
     .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in.rmpad{padding: 30px 20px;}
-    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in .btn-group a{padding: 15px 20px 15px 50px;}
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in ul li{font-size: 14px;}
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in .btn-group a{font-size:13px;padding: 15px 20px 15px 50px;}
     .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in .btn-group a:first-child{background-size: 15%;margin-right: 10px;}
     .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in .btn-group a:last-child{background-size: 20%;}
-    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk{min-height: 310px;}
+    .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk.in .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk{min-height: 270px;}
     .ssl-wrapper .ssl-content-blk .ssl-cont-leftblk .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk .jar-water,
     .ssl-wrapper .ssl-content-blk .ssl-cont-leftblk .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk .jar-water-oil,
     .ssl-wrapper .ssl-content-blk .ssl-cont-leftblk .ssl-exp-slider-blk .slick-initialized .slick-slide .ssl-exp-step-blk .jar-oil,
