@@ -39,7 +39,7 @@ function Experiment(props) {
                                             <h4>Result</h4>
                                             <ul>
                                                 <li>You see a glass object because it both reflects and refracts light. When light traveling through air encounters a glass surface at an angle, some of the light reflects..</li>
-                                                <li>When light passes from air into glass, it slows down. It’s this change in speed that causes the light to reflect and refract as it moves from one clear material (air) to another (glass). Every material has an index of refraction that is linked to the speed of light in the material. The higher a material’s index of refraction, the slower light travels in that material.</li>
+                                                {/* <li>When light passes from air into glass, it slows down. It’s this change in speed that causes the light to reflect and refract as it moves from one clear material (air) to another (glass). Every material has an index of refraction that is linked to the speed of light in the material. The higher a material’s index of refraction, the slower light travels in that material.</li> */}
                                             </ul>
                                         </>
                                     )
