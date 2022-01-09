@@ -24,7 +24,7 @@ function Experiment(props) {
             <section className={`ssl-cont-leftblk ${props.expResult == true ? 'rmpad':''}`}>
                 <section className='ssl-exp-slider-blk'>
                     <section className='ssl-exp-procedure'>
-                        <h4>Procedure</h4>
+                        <h4>Refractive Index</h4>
                         <h5>Click START button to follow Procedure</h5>
                         <a href="javascript:;" className='btn-start' onClick={props.experimentSideNav}>Start</a>
                     </section>
