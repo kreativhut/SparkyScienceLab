@@ -1,7 +1,8 @@
+import { useEffect, useState } from 'react';
+
 import logo from './logo.svg';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import { useEffect, useState } from 'react';
 import Experiment from './Components/Experiment';
 import './assets/css/reset.css';
 import './assets/css/style.css';
@@ -9,6 +10,7 @@ import './assets/css/style.css';
 function App() {
   const [expSide, setExpSide] = useState(false)
   const [expResult, setExpResult] = useState(true)
+
   useEffect(() => {
     let getHeaderHeight = document.querySelector('.ssl-wrapper .ssl-header').clientHeight;
     let getFooterHeight = document.querySelector('.ssl-wrapper .ssl-footer').clientHeight;
@@ -17,8 +19,9 @@ function App() {
     // console.log('getFooterHeight: ',getFooterHeight);
     // console.log('getBodyHeight: ',getBodyHeight);
   }, [])
+
   const experimentSideNav = (val) =>{
-    // alert(val); 
+    // alert(val); console.log(val)
     setExpSide(val);
     setTimeout(()=>{
       document.querySelector('.ssl-cont-leftblk').classList.add('in');      
@@ -37,6 +40,7 @@ function App() {
     },4000)
     
   }
+
   return (
     <section className='ssl-wrapper'>
       <Header expSide={expSide}/>

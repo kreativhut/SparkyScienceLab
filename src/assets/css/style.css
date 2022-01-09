@@ -111,7 +111,7 @@
 .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-inventory-blk .ssl-exp-img aside{cursor:move;margin-bottom:0;}
 .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table{margin-top: 180px;width: 90%;text-align: center;} 
 .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table .ssl-table-block .ssl-exp-items{min-height: 100px;}
-.ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table .ssl-table-block .ssl-exp-items .ssl-expitm-drop{margin:  0 auto;}
+.ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table .ssl-table-block .ssl-exp-items .ssl-expitm-drop{margin: 0 auto; width: 350px; height: 100px; display: flex; justify-content: space-around; align-items: center;}
 .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table .ssl-table-block .ssl-exp-items .ssl-expitm-drop aside{margin: 0 10px;}
 .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table .ssl-table-block .ssl-table{width: 500px;background: lightsalmon;border:2px solid chocolate;height: 24px;margin:0 auto;position: relative;z-index: 3;}
 .ssl-wrapper .ssl-content-blk .ssl-cont-rytblk .ssl-exp-lab-block .ssl-exp-table .ssl-table-block .ssl-table::before{content:'';position: absolute;left: 10%;top:20px;padding:8px;height: 100px;background: lightsalmon;border:1px solid chocolate;border-width: 3px 1px 3px 1px;z-index: 2;}

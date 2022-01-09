@@ -1,12 +1,15 @@
 import React from 'react';
 import Slider from "react-slick";
+
 class ExpSlick extends React.Component{
     constructor(props){
         super(props);
         this.state={
-
+            step: this.props.step,
+            setStep: this.props.setStep
         }
     }
+
     render(){    
         const settings = {
             dots: true,
@@ -16,7 +19,7 @@ class ExpSlick extends React.Component{
             slidesToScroll: 1,
         };
         return (
-            <Slider ref={slider => (this.slider = slider)}  {...settings} className='ssl-exp-slider'>
+            <Slider afterChange={index=>this.state.setStep(index)} ref={slider => (this.slider = slider)}  {...settings} className='ssl-exp-slider'>
                 {/* <section className="ssl-exp-step-blk start">
                     <h5>Click START button to follow Procedure</h5>
                     <a href="javascript:;" className='btn-start' onClick={this.slicGoTo}>Start</a>

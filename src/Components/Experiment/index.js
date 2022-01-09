@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ExpSlick from './ExpSlick';
 import { DndProvider, useDrag } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import RequirementPanel from './RequirementPanel';
 
 function Experiment(props) {
-    const [state, setState] =  useState()
+    const [state, setState] =  useState();
+    const [step, setStep] = useState(0);
+
     return (
         <section className={`ssl-content-blk ${props.expSide ? 'in' : ''}`}>
             <section className="ssl-cont-rytblk">
@@ -16,7 +18,7 @@ function Experiment(props) {
                 </section>
                 <section className="ssl-exp-lab-block">
                     <DndProvider backend={HTML5Backend}>
-                        <RequirementPanel/>
+                        <RequirementPanel data={{step, setStep}} />
                     </DndProvider>    
                 </section>
             </section>
@@ -27,7 +29,7 @@ function Experiment(props) {
                         <h5>Click START button to follow Procedure</h5>
                         <a href="javascript:;" className='btn-start' onClick={props.experimentSideNav}>Start</a>
                     </section>
-                    <ExpSlick/>                    
+                    <ExpSlick step={step} setStep={setStep} />                    
                 </section>
                 {
                     props.expSide && (

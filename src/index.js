@@ -5,10 +5,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Container } from './Components/expDustbinBox/Container';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <Container /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
