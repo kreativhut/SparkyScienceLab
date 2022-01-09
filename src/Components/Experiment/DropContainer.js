@@ -14,15 +14,16 @@ const DropContainer = (props) => {
         },
     }));   
     const isActive = canDrop && isOver;
-    let backgroundColor = '#222';
-    if (isActive) {
-        backgroundColor = 'darkgreen';
-    }
-    else if (canDrop) {
-        backgroundColor = 'darkkhaki';
+    let backgroundColor = 'transparent';
+    // if (isActive) {
+    //     backgroundColor = 'bisque';
+    // }
+    // else 
+    if (canDrop) {
+        backgroundColor = 'beige';
     }
     return (
-        <div ref={drop} role={'Dustbin'} className="ssl-expitm-drop">
+        <div ref={drop} role={'Dustbin'} className="ssl-expitm-drop" style={{backgroundColor}}>
             {/* <div style={{backgroundColor: backgroundColor, height: 20, width: 20}} /> */}
             { props.jwater && <aside className='jar-water'></aside>}            
             { props.jwaterrod && <aside className='jar-water-rod'><span>&nbsp;</span></aside>}            

@@ -31,7 +31,7 @@ function RequirementPanel(props) {
                         case 'jarwater' : 
                             if(step == 0) {
                                 setJwater(true);
-                                // setStep(1);
+                                setStep(step+1);
                             } 
                             else alert('You have draggd wrong equipment')
                             break;
@@ -39,7 +39,7 @@ function RequirementPanel(props) {
                             if(step == 1)    
                             {
                                 setJwateroil(true);
-                                // setStep(2);
+                                setStep(step+1);
                             }
                             else alert('You have draggd wrong equipment')
                             break;
@@ -47,7 +47,7 @@ function RequirementPanel(props) {
                             if(step == 2)    
                             {
                                 setJoil(true);
-                                // setStep(3);
+                                setStep(step+1);
                             }
                             else alert('You have draggd wrong equipment')
                             break;
@@ -55,17 +55,17 @@ function RequirementPanel(props) {
                             if(step == 3){
                                 setJwaterrod(true);
                                 setJwater(false);
-                                // setStep(4);
+                                setStep(step+1);
                             }
                             else if(step == 4){
                                 setJwateroilrod(true);
                                 setJwateroil(false);
-                                setStep(5);
+                                setStep(step+1);
                             }
                             else if(step == 5){
                                 setJoilrod(true);
                                 setJoil(false);
-                                // setStep(6);
+                                setStep(step+1);
                             }else alert('Please check you step!');
                             break;    
                         

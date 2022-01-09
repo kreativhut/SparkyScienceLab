@@ -5,7 +5,6 @@ import { HTML5Backend } from 'react-dnd-html5-backend';
 import RequirementPanel from './RequirementPanel';
 
 function Experiment(props) {
-    const [state, setState] =  useState();
     const [step, setStep] = useState(0);
 
     return (

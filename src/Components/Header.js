@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import UserIcon from '../assets/images/user.png';
 
 function Header(props) {    
     const [menu, setMenu] = useState(false)
@@ -21,7 +22,7 @@ function Header(props) {
                     </aside>
                     <aside className='ssl-useropt-blk'>
                         <div>
-                            <h2><img src=""/><span>Mohan</span></h2>
+                            <h2><img src={UserIcon} /><span>Mohan</span></h2>
                             <ul>
                                 <li><a href="javascript:;">My Profile</a></li>
                                 <li><a href="javascript:;">My Experiments</a></li>
@@ -37,7 +38,7 @@ function Header(props) {
                         <span></span>
                     </aside>
                     <aside className={`ssl-hamburg-cont ${menu ? 'open':''}`}>
-                        <h2><img src=""/><span>Mohan</span></h2>
+                        <h2><img src={UserIcon} /><span>Mohan</span></h2>
                         <ul>
                             <li><a href="javascript:;">My Profile</a></li>
                             <li><a href="javascript:;">My Experiments</a></li>
