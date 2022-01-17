@@ -109,44 +109,4 @@ function RequirementPanel(props) {
     )
 }
 
-// const JarOil = () =>{
-//     const [, drag] = useDrag(() => ({ type: 'jaroil' }));
-//     return (
-//         <aside className='ssl-exp-img'>
-//             <aside className='jar-oil'></aside>
-//         </aside>
-//     );
-// }
-// const JarWaterOil = () =>{
-//     const [, drag] = useDrag(() => ({ type: 'jarwateroil' }));
-//     return (
-//         <aside className='ssl-exp-img'>
-//             <aside className='jar-water-oil'></aside>
-//         </aside>
-//     );
-// }
-// const JarWaterRod = () =>{
-//     const [, drag] = useDrag(() => ({ type: 'jarwaterrod' }));
-//     return (
-//         <aside className='ssl-exp-img'>
-//             <aside className='jar-water-rod'><span>&nbsp;</span></aside>
-//         </aside>
-//     );
-// }
-// const JarOilRod = () =>{
-//     const [, drag] = useDrag(() => ({ type: 'jaroilrod' }));
-//     return (
-//         <aside className='ssl-exp-img'>
-//             <aside className='jar-oil-rod'><span>&nbsp;</span></aside>
-//         </aside>
-//     );
-// }
-// const JarWaterOilRod = () =>{
-//     const [, drag] = useDrag(() => ({ type: 'jarwateroilrod' }));
-//     return (
-//         <aside className='ssl-exp-img'>
-//             <aside className='jar-water-oil-rod'><span>&nbsp;</span></aside>
-//         </aside>
-//     );
-// }
 export default RequirementPanel
