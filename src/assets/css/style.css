@@ -196,8 +196,8 @@
 .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in  ul li:before{content:'';position: absolute;left:0;top:8px;width:10px;height: 10px;border-radius: 5px;background: #fff;}
 .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in  .btn-group{display: block;width: 80%;margin:50px auto 20px}
 .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in  .btn-group a{display: inline-block;font: 18px/18px 'dmsans-medium';color:#000;background: #fff;border-radius: 5px;padding:20px 20px 20px 60px;}
-.ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in  .btn-group a:first-child{margin-right: 40px;background:#fff url('../images/beLogo.38170208.svg') 8px center no-repeat;background-size: 20%;}
-.ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in  .btn-group a:last-child{background:#fff url('../images/main-logo.png') 8px center no-repeat;background-size: 25%;}
+/* .ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in  .btn-group a:first-child{margin-right: 40px;background:#fff url('../images/beLogo.38170208.svg') 8px center no-repeat;background-size: 20%;} */
+.ssl-wrapper .ssl-content-blk.in .ssl-cont-leftblk .ssl-exp-result.in  .btn-group a:first-child{background:#fff url('../images/main-logo.png') 8px center no-repeat;background-size: 25%;}
 
 
 @media (max-width:1919px){

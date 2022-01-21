@@ -12,6 +12,9 @@ function Result(props) {
                 </>
             )
         }
+        <aside className='btn-group'>
+            <a href="https://learnwithcomics.org/" title="Watch Comic">Watch Comic</a>
+        </aside>
     </section>
   )
 }
