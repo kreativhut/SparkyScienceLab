@@ -9,7 +9,8 @@ function Footer() {
                         <h3>Spary Science Lab</h3>
                         <ul>
                             <li><a href='javascript:;'>Experiement</a></li>
-                            <li><a href='javascript:;'>About Us</a></li>                            
+                            <li><a href='javascript:;'>About Us</a></li>      
+                            <li className='btn-group'><a href="https://learnwithcomics.org/" title="Watch Comic">Watch Comic</a></li>                      
                         </ul>
                     </aside>
                     <aside>

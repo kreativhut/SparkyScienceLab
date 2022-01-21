@@ -12,8 +12,7 @@ function RequirementPanel(props) {
     const [joilrod,setJoilrod] = useState(false);
     const [jwateroilrod,setJwateroilrod] = useState(false);
 
-    const Jar = (props) =>{
-        console.log();
+    const Labitem = (props) =>{
         let name = props.name
         const [{ isDragging }, drag] = useDrag(() => ({
             type: 'myItem',
@@ -67,7 +66,7 @@ function RequirementPanel(props) {
                                 setJoil(false);
                                 setStep(step+1);
                             }else alert('Please check you step!');
-                            break;    
+                            break;   
                         
                     }
                 }
@@ -90,10 +89,10 @@ function RequirementPanel(props) {
     return (
         <section>
             <section className="ssl-inventory-blk">
-                <Jar name="jarwater"/>                
-                <Jar name="jarwateroil"/>
-                <Jar name="jaroil"/>
-                <Jar name="rod"/>
+                <Labitem name="jarwater"/>                
+                <Labitem name="jarwateroil"/>
+                <Labitem name="jaroil"/>
+                <Labitem name="rod"/>
             </section>
             <section className="ssl-exp-table">
                 <section className="ssl-table-block">
